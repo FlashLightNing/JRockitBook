@@ -9,7 +9,7 @@
   * [1.5.md](15md.md)
 * [第二章.md](di-er-7ae0-md.md)
   * [2.1.md](di-er-7ae0-md/21md.md)
-  * 2.2.md
+  * [2.2.md](di-er-7ae0-md/22md.md)
   * 2.3.md
   * 2.4.md
   * 2.5.md
