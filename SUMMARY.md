@@ -20,6 +20,7 @@
   * [3.1.md](di-san-7ae0-md/31md.md)
   * [3.2.md](di-san-7ae0-md/32md.md)
   * [3.3.md](di-san-7ae0-md/33md.md)
+  * [3.4.md](di-san-7ae0-md/34md.md)
   * [3.5.md](di-san-7ae0-md/35md.md)
   * [3.6.md](di-san-7ae0-md/36md.md)
   * [3.7.md](di-san-7ae0-md/37md.md)
