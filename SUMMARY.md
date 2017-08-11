@@ -13,8 +13,8 @@
   * [2.3.md](di-er-7ae0-md/23md.md)
   * [2.4.md](di-er-7ae0-md/24md.md)
   * [2.5.md](di-er-7ae0-md/25md.md)
-  * 2.6.md
-  * 2.7.md
+  * [2.6.md](di-er-7ae0-md/26md.md)
+  * [2.7.md](di-er-7ae0-md/27md.md)
 
 ## 1.1
 
