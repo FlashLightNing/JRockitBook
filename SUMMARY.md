@@ -11,7 +11,7 @@
   * [2.1.md](di-er-7ae0-md/21md.md)
   * [2.2.md](di-er-7ae0-md/22md.md)
   * [2.3.md](di-er-7ae0-md/23md.md)
-  * 2.4.md
+  * [2.4.md](di-er-7ae0-md/24md.md)
   * 2.5.md
   * 2.6.md
   * 2.7.md
