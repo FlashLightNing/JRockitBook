@@ -1,16 +1,23 @@
-# 5.9 小结 {#59-小结}
+# 6 JRockit Mission Control套件 {#6-jrockit-mission-control套件}
 
-本章主要介绍了基准测试和性能调优的相关内容。这里提到了使用基准测试主要是为了防止应用程序的性能在开发过程中发生退化，而且相比于处理整个应用程序，对其中的某一部分进行分析、测试会方便得多；之后重点强调了在商业软件开发中，制定性能目标的重要性，以及基准测试在这其中所能发挥的重要作用；另外，在基准测试套件中集成一些第三方应用程序，有助于基准测试的展开。
+作为Java运行时，人们期望JRockit能够持续稳定地监控Java应用程序的运行情况。正如在之前几章介绍的，在Java应用程序运行过程中，JRockit有很多事情要做，例如找出哪些方法最耗时间，以及跟踪内存使用情况和应用程序的内存分配行为（因为如果发生内存泄漏的情况就不太妙了）。
 
-在[5.2.3节](./5.2.md#5.2.3)中对微基准测试及其使用场景做了简单介绍，并在[5.3节](./5.3.md#5.3)中介绍了确定测试目标的重要性。
+在对应用程序做性能分析或诊断时，JRockit所收集到的运行时数据将会是非常宝贵的资料。
 
-为了定位应用程序的性能瓶颈，并确保相关措施确实能解决性能瓶颈，对应用程序做性能分析是很有必要的。性能分析可以按照复杂度和侵入性划分为不同的级别。就JRockit来说，使用JRockit Mission Control套件可以以较小的代价对应用程序的性能做详细分析。
+在本书的第2部分中，将会对JRockit所提供的套件工具做详细介绍。在接下来的4章中，将对JRockit发行版中工具做介绍，分别是JRockit Mission Control，JRockit Runtime Analyzer（在R28版本中，该工具已被JRockit Flight Recorder取代），JRockit Memory Leak Detector和JRCMD。
 
-本章中还对几种SPEC基准测试套件及其各自特点做了简单介绍。
+上述的前3个工具均包含在JRockit Mission Control套件中，最后一个，即JRCMD，是一个命令行工具，随JRockit JDK一起发布。这些工具都可以连接到正在运行的JVM上，再完成各自的工作，此外，它们的执行开销都非常小，可以应用于生产环境。
 
-在知晓了应用程序的运行行为后，可以根据实际情况决定，是单纯靠调整JVM来提升性能，还是需要重写应用程序的某些功能模块。本章以JRockit为例，对与内存系统和代码生成器等JVM组件的命令行参数做了介绍。
+本章的主要知识点包括：
 
-最后，本章对Java应用程序中常见的性能瓶颈和反模型进行了介绍，并讨论了规避这些问题的方法。
+* JRockit Mission Control的两种启动方式，独立启动和作为Eclipse Ide的插件启动
+* 配置JRockit JVM以便可以通过JRockit Mission Control进行远程管理
+* 配置JRockit Mission Control以便可以使其自动发现其他正在运行的JRockit JVM
+* 配置JRockit JVM中的管理代理（Management Agent）
+* 安全使用JRockit Mission Control和JRockit Management Agent
+* 处理JRockit Mission Control和JRockit JVM的连接问题
+* 从JRockit Mission Control中获取更多调试信息
+* 介绍JRockit Mission Control的Experimental Update Site，以及如何扩展JRockit Mission Control
 
-到这里，本书的第一部分就此完结。在下一部分中，将会对JRockit Mission Control这个强大的工具做详细介绍。期望本章中的内容可以帮助读者理解基准测试的作用，以及如何使用正确的工具解决性能问题。
+本章的部分内容涉及到Eclipse IDE，希望读者能预先了解一下相关内容，更多与Eclipse IDE相关的内容请参见[http://www.eclipse.org](http://www.eclipse.org)。
 
